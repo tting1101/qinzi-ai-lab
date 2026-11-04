@@ -1,0 +1,38 @@
+# 环境变量与本地密钥（包括示例环境文件）
+.env
+.env.*
+*.env
+*.env.*
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+.npmrc
+.netrc
+
+# 本地工具、部署和缓存
+.git-credentials
+.ssh/
+.aws/
+.vercel/
+.codex/
+node_modules/
+.cache/
+dist/
+coverage/
+*.log
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak

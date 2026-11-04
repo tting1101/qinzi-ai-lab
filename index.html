@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>亲子AI创造资料库</title><meta name="description" content="亲子一起用AI创作的资料与素材库。"><link rel="stylesheet" href="styles.css"></head><body>
+<a class="skip" href="#main">跳到主要内容</a><header class="site-header"><a class="brand" href="#home"><span class="brand-icon" aria-hidden="true">✳</span>亲子AI创造资料库</a><span class="header-note">一起想象，一起创造</span></header>
+<main id="main"><div id="home"><section class="hero"><div><span class="eyebrow pill">AI 创造基地 · 灵感启航</span><h1>把小小的想象，<br>变成一起的<span>作品。</span></h1><p class="intro">和孩子一起用 AI 玩创作，把天马行空的点子变成有趣的作品。</p><p>一点好奇，一点 AI，和一段专心陪伴的时间。<br>从这里挑一个主题，开启你们的下一次创造。</p><a class="primary" href="#themes">挑一个主题 <span aria-hidden="true">↓</span></a></div><div class="hero-art" aria-hidden="true"><div class="paper back-paper"></div><div class="paper front-paper"><div class="paper-label">灵感正在发芽</div><div class="creature"><i></i><i></i><b>⌣</b></div><div class="scribble">hello, imagination!</div></div><span class="float-star">✦</span><span class="float-dot">✳</span><span class="sticker">大人 + 小孩 + AI</span></div></section><section id="themes" class="themes"><div class="section-heading"><div><span class="eyebrow">选择你的创作任务</span><h2>今天，一起创造什么？</h2></div><span class="count">03 个主题</span></div><div class="cards"><a class="card peach" href="#weekend"><div class="art"><img src="images/weekend.webp" alt="" loading="lazy" decoding="async"></div><div class="card-body"><span class="eyebrow">创作主题 01</span><h3>周末做什么转盘</h3><p>把选择交给一点点惊喜</p><span class="card-link">打开创作资料 <span>↗</span></span></div></a><a class="card lavender" href="#inventor"><div class="art"><img src="images/inventor.webp" alt="" loading="lazy" decoding="async"></div><div class="card-body"><span class="eyebrow">创作主题 02</span><h3>疯狂发明家三转盘</h3><p>三个线索，一个奇妙发明</p><span class="card-link">打开创作资料 <span>↗</span></span></div></a><a class="card mint" href="#monster"><div class="art"><img src="images/monster.webp" alt="" loading="lazy" decoding="async"></div><div class="card-body"><span class="eyebrow">创作主题 03</span><h3>涂鸦怪兽孵化器</h3><p>把一张小涂鸦，变成一只独一无二的想象伙伴！</p><span class="card-link">打开创作资料 <span>↗</span></span></div></a></div></section><aside class="privacy"><span aria-hidden="true">♡</span><div><h2>保护小小创作者</h2><p>孩子只用昵称。这里不放真名、学校、正脸照片或所在城市。<br>把资料粘贴到AI或分享作品前，也请一起检查一次。</p></div></aside></div><article class="detail" id="weekend" aria-labelledby="weekend-title"><a class="back" href="#home">← 返回全部主题</a><header class="detail-head peach"><span class="eyebrow">创作主题 01 · P02 材料 V1.0</span><h1 id="weekend-title" tabindex="-1">周末做什么转盘</h1><p>每到周末，大人与孩子都想做不同的事，想半天做不出决定。用一个有趣的转盘，让每个人的主意都被看见、都有机会被抽到。随机只是建议，最终由双方自愿协商。</p></header><section class="block"><div class="section-heading"><h2>01 / 给 AI 的提示词</h2><button type="button" data-copy="weekend-prompt">复制提示词</button></div><pre id="weekend-prompt" tabindex="0" aria-label="完整提示词，可滚动阅读">你是一名擅长儿童友好设计、网页交互和前端开发的AI编程助手。请帮我们做一个真正能玩的原创小网页：《周末做什么转盘》。
+
+【解决的真实问题】
+每到周末，大人与孩子都想做不同的事，想半天做不出决定。我们想用一个有趣的转盘，让每个人的主意都被看见、都有机会被抽到，而不是由某一方单方面安排。
+
+【必须完成的首版功能｜只有一个活动转盘】
+1. 显示一个很大、指针清楚的彩色活动转盘。不是《疯狂发明家》的三个转盘，只允许一个转盘。
+2. 页面左侧/上方有活动输入区。大人和孩子分别能输入自己想做的周末活动，按“添加”即可成为新转盘扇区；支持编辑、删除；支持中文。每条选项带“我的主意/孩子的主意/共同的主意”标签。标签只用于显示，不改变随机权重。
+3. 预置8个适合普通家庭的无危险活动示例：公园散步、骑行、看电影、拼模型、野餐、桌游、逛书店、做甜点；可替换或删除。所有选项都是演示数据，可以自己输入；不要推荐具体商家，也不要请求定位。
+4. 转盘至少支持2条、最多12条活动，每条默认等概率。点击“开始转动”后平滑旋转约3秒，减速并停下，转盘最终指针所指的扇区必须与结果文字严格相符。旋转中禁用重复点击；无效输入应有提示。
+5. 停下后展示“抽到：××”。显示三种选择：“双方都同意，定下来”“再商量”“重新转”。随机结果不是强制命令，需要独立的「大人同意」和「孩子同意」两个可点选确认，只有两人分别点选之后「定下本周计划」按钮才可用；否则保持待定，不允许一方代替另一方一键同意。
+6. 可以清楚看到大人、孩子各有多少条候选。支持保存和修改活动池、读取上次列表（仅浏览器localStorage）；有“清空自定义”按钮但清空前弹出确认。不能清空浏览器其他网站或任何原有数据。
+7. 支持两套可随时自由切换的原创视觉主题：A「酷炫探索」深海军蓝＋电光青＋黄色点缀，适合喜欢酷酷游戏的孩子；B「梦幻明亮」奶油白＋紫罗兰＋珊瑚粉＋薄荷绿。**主题可由任何人自由选，不绑定性别**。切换主题时活动池、转盘结果及状态不丢失。两版功能、结构和交互完全一致。
+8. 能在手机和电脑上使用，按钮尺寸易点按；支持基础键盘操作、减少动画偏好；没有播放提示音也必须可以完整玩。需要音效时优先Web Audio简单生成，提供静音按钮。
+9. 不需要登录、后端、收费API、摄像头、麦克风、第三方CDN或上传用户任何数据。若联网依赖会影响初版运行，改为纯HTML/CSS/JS实现。
+
+【视觉要求】
+参考我提供的两张原创页面草图，视觉由你重新实现，重点保留：活动输入区 / 一个大转盘 / 抽签结果与共同确认区。两种主题只是皮肤，不要做成两个独立逻辑版本。避免挪用第三方角色、游戏素材或受保护的截图。
+
+【技术与交付要求】
+- 首选一个index.html，完整HTML、CSS、JavaScript全部放入同一文件，保存后双击即可在电脑浏览器打开；不要只给伪代码、组件片段或部署说明。
+- 先实现稳定的初版，不加入AI聊天、地点推荐、付费功能、账号、排行榜或数据收集。
+- 选项是中文，长度2—15字，前后空格去除；禁止空值和重复值；中文排版无溢出。
+- 预设8项时转盘8扇区；新增/删除应立即改变扇区数且结果可被正确指向。
+- 若某功能技术上复杂，先确保“添加活动→真实转动→指针匹配→双方独立确认→重新转→主题切换”闭环，再解释简化项。
+
+【生成后请自查】
+1. 添加/删除/编辑活动实际有效；2. 指针与结果连续10次测试应一致；3. 两套主题切换不丢活动；4. 初次打开及刷新后工作正常；5. 输入异常不会卡死；6. 手机窄屏排版可用。若不能自动跑浏览器，请明确标“待人工验证”，不要宣称测试通过。
+
+请直接交付完整index.html源代码、电脑打开方式、给家长看的3步使用说明，以及可能需要我们手工验收的项目。不要启动工程、注册账号、部署或发布。</pre><p class="copy-status" role="status" aria-live="polite"></p></section><section class="block"><h2>02 / 一起动手</h2><ol class="steps"><li>先一起讨论“这个周末想做什么”，理解双方的想法，再选择喜欢的视觉风格。</li><li>由大人复制完整提示词给AI编程工具，生成单文件 index.html；可同时提供本页参考图。</li><li>先由大人打开并检查：添加、编辑、删除活动有效，转盘指针与结果一致，切换主题不丢失活动。</li><li>大人和孩子分别提出三条真正愿意做的活动，共同检查时间、预算和安全；随机结果只作建议。</li><li>抽到活动后，双方分别确认；有分歧时再商量或重新转。孩子提出一项改造建议，由大人交给AI修改并重新检查。</li><li>完成初版并获得所需试玩许可后，记录实际反馈、版本差异和有效提示词，再整理作品。</li></ol></section><section class="block"><h2>03 / 参考图</h2><figure><img src="images/weekend.webp" alt="周末做什么转盘酷炫版视觉参考" loading="lazy" decoding="async"><figcaption>P02 原创视觉参考，非运行截图。材料依据：P02-IDEA-001｜双主题材料包 V1.0</figcaption></figure></section><section class="block archive"><span class="eyebrow">留下小小创造力</span><h2>AI 成果存档</h2><p class="pending">作品整理中</p></section></article><article class="detail" id="inventor" aria-labelledby="inventor-title"><a class="back" href="#home">← 返回全部主题</a><header class="detail-head lavender"><span class="eyebrow">创作主题 02 · P02 材料 V2.0</span><h1 id="inventor-title" tabindex="-1">疯狂发明家三转盘</h1><p>孩子自己添加词语，让三个独立转盘选择“物品 × 能力 × 用途”，共同给奇怪发明命名。鼓励想象力、表达和“先允许，再讨论”，不评判点子有没有用。</p></header><section class="block"><div class="section-heading"><h2>01 / 给 AI 的提示词</h2><button type="button" data-copy="inventor-prompt">复制提示词</button></div><pre id="inventor-prompt" tabindex="0" aria-label="完整提示词，可滚动阅读">你是一名有儿童游戏体验与前端能力的工程师。请直接制作一个中文网页小游戏《疯狂发明家三转盘》，交付可运行的单文件 index.html（完整HTML+CSS+原生JavaScript），不只提供思路、框架或代码片段。制作前先自查以下需求是否冲突；只在技术上必需时提出澄清，否则按下述默认完成。
+
+【用户与目的】
+这是家长与孩子周末共创的轻量作品。孩子负责创意、修改和判断，成年人负责AI工具操作。设计目的：不评判点子有没有用，允许夸张想象，通过有趣的组合让孩子给自己的发明起名。不要像考试、课堂或抽奖赌博；不要评分“对错”。
+
+【必须实现的核心结构】
+1. **三个独立可见的实体圆形转盘**，标题分别为“物品”“能力”“用途”。桌面并排，手机响应式排列，绝不能简化为一个转盘或三个卡片；每个转盘有独立旋转动画、固定指针、清楚分区和文字标签，标注三类。
+2. 初始可选词条（均可修改）：
+  - 物品：书包、雨伞、鞋子、枕头、帽子、铅笔、机器人、滑板。
+  - 能力：会飞、隐身、瞬移、唱歌、变大变小、发光、读懂动物心情、复制自己。
+  - 用途：帮忙上学、寻找丢失的袜子、照顾小猫、给植物浇水、陪宇航员冒险、收集彩虹、帮助旅行、修理损坏的玩具。
+3. 大按钮“开始发明”：三个轮子依次或有时间差地旋转、减速和停止；独立生成三项结果。结果最终只在全部停下后展示，例如“书包 × 隐身 × 帮忙上学”。动画全程禁止多次触发按钮。
+4. **准确性为最高优先级**：在开始旋转前先为每个转盘公平随机选定一个有效索引，计算最终转动角度，使固定指针严格指向被选中的分区中心；停止时展示的字符串从同一索引读取，不能用独立随机数拼结果。说明并在代码中实现角度归一、分区中心计算，避免旋转视觉与文字结果不一致。点击“再转一次”必须重新抽。
+5. 三个列表均在网页内可编辑：添加／改名／删除自定义词条、空项和重复项拦截，必须至少保留2项；修改后转盘能正确重绘。孩子可以不用打开代码就添加自己的脑洞。
+6. 组合后展示一个“本次发明卡”：三个选项、可编辑的“发明名称”“它能帮谁解决什么问题？”两个输入框，以及“复制发明卡”按钮。默认提供友好示范文案，但绝不评判创意为无用或错误；无成绩排名。
+7. 提供“重新开始”“再转一次”“关闭/开启音效”“换主题”四个清楚的控件。音效默认关闭；如果添加音效，只用Web Audio API生成简短反馈，不调用外部声音素材。
+8. 同一份网页里提供两套完整的CSS视觉主题，用户自由切换：A.酷炫科技版（深海蓝、霓虹青、少量亮紫、太空机械纹理）；B.梦幻幻想版（浅奶油、薄荷绿、薰衣草紫、明亮珊瑚粉、星星纸片气氛）。所有功能、三转盘词条、随机规则保持完全一致。主题不能与用户性别绑定。页面首先展示科技风。
+9. 所有UI文本必须中文，字体可使用系统字体；不能依赖图片字体或复制某个现成作品的具体角色/Logo/界面。装饰优先CSS/SVG/Canvas自主绘制，避免版权风险。
+10. 适配鼠标、触屏和键盘；按钮可见、触控区域足够大，`prefers-reduced-motion` 下缩短旋转动画。动画时不要闪屏/频闪。
+
+【技术与隐私边界】
+- 首版尽量全部写入一个 index.html，使用原生 JS + Canvas/SVG/CSS，**不需要依赖GitHub源代码或CDN**，不需要Node、终端、安装、联网、服务器或后端；若你必须使用依赖，需事先明确原因，但优先改为无依赖方案。
+- 禁止真实AI API调用、账号、密钥、购买、付费、埋点、远程上传或服务器请求；不收集儿童个人信息，草稿默认只在当前页面内存，复制由用户主动点击。
+- 不要擅自部署、发布或生成公开链接。
+- 参考技术理念为CrazyTim/spin-wheel：https://github.com/CrazyTim/spin-wheel；本次只参考“多个独立转盘、可编辑与停止指针”的概念，代码必须重新编写。若实际使用其源码，请声明使用了MIT开源代码并保留需要的许可证与版权通知。
+
+【交付格式】
+先给出完整且可复制保存为 index.html 的代码，然后是：
+① 电脑和手机基本使用说明（含本地文件打开的局限）
+② 自己静态检查了什么、哪些浏览器行为没有实测（未经运行不得声称PASS）
+③ 一张8项人工验收表，重点核对“三轮独立、指针=文本、编辑词条、主题切换、复制结果、无外部请求、响应式、音效默认关闭”
+④ 给孩子的一个可选改造挑战：自定义一个最离谱的新能力，并给组合发明命名。
+遇到缺陷优先修复三轮与指针结果正确，再优化动画、装饰。请开始输出完整网页代码。</pre><p class="copy-status" role="status" aria-live="polite"></p></section><section class="block"><h2>02 / 一起动手</h2><ol class="steps"><li>由大人把下面的完整提示词交给平时的AI编程工具。</li><li>让AI返回单文件 index.html，先检查代码是否完整，是否无需外部账号、Key或付费API。</li><li>在电脑浏览器打开，确认物品、能力、用途三个转盘独立存在；优先核对指针与结果一致，再试两套主题自由切换。</li><li>让孩子提出一个真实改造，例如把“书包”换成“章鱼背包”，由大人把具体修改需求交给AI。</li><li>保存实际界面截图或录屏和修改前后的差异，再按真实体验整理成果。</li></ol></section><section class="block"><h2>03 / 参考图</h2><figure><img src="images/inventor.webp" alt="疯狂发明家三转盘酷炫版视觉参考" loading="lazy" decoding="async"><figcaption>P02 原创视觉参考，非运行截图。材料依据：P02-IDEA-002｜先看这里与完整提示词 V2.0</figcaption></figure></section><section class="block archive"><span class="eyebrow">留下小小创造力</span><h2>AI 成果存档</h2><p class="pending">作品整理中</p></section></article><article class="detail" id="monster" aria-labelledby="monster-title"><a class="back" href="#home">← 返回全部主题</a><header class="detail-head mint"><span class="eyebrow">创作主题 03 · P02 材料 V1.3</span><h1 id="monster-title" tabindex="-1">涂鸦怪兽孵化器</h1><p>先画出你脑海里的奇怪小生物，再为它取一个昵称、挑选喜欢的世界风格，看看它会变成什么样。你还可以继续改颜色、加翅膀、换表情、设计特殊能力，让它从“我的一张画”变成“我的专属怪兽”。</p></header><section class="block"><div class="section-heading"><h2>01 / 给 AI 的提示词</h2><button type="button" data-copy="monster-prompt">复制提示词</button></div><pre id="monster-prompt" tabindex="0" aria-label="完整提示词，可滚动阅读">你是一名擅长儿童创意工具的前端工程师和儿童体验设计师。请制作一个中文单页网页原型，名称为“涂鸦怪兽孵化器”。目标是让孩子把自己的怪兽涂鸦变成可继续改造的专属怪兽展示卡。
+
+
+一、产品体验
+1. 页面所有用户可见文案使用简体中文，适合亲子共同使用，短句、清晰、友好。
+2. 首页展示标题“涂鸦怪兽孵化器”和副标题“把一张小涂鸦，变成一只独一无二的想象伙伴！”
+3. 提供图片选择按钮，支持 PNG/JPG/WebP；选择后只在浏览器本地预览，不上传服务器，不写入云端，不调用外部接口。
+4. 提供怪兽昵称输入框，默认空白，提示“只写怪兽昵称，不要填写真实姓名”。不要预填任何真实个人信息。
+5. 提供两个平等可选主题：梦幻探索、酷炫探索。主题由每位用户自行选择，不按性别默认或限制。
+6. 提供“开始孵化”按钮。当前原型不接真实AI服务，因此点击后只能生成明确标注为“演示效果”的本地展示卡（可用用户上传图像预览、CSS装饰和文本组合），页面必须清楚标注“当前为交互演示，尚未连接真实AI图像生成服务”。不得声称图片已经由AI生成。
+7. 提供“再改造一次”区域，至少支持：更换主题、选择颜色、添加翅膀、添加角/尾巴、更换表情、输入一个特殊能力。改造动作必须能在界面上看到变化或文字更新。
+8. 提供“保存我的怪兽”按钮，优先使用浏览器下载生成的作品展示卡或打印为PDF；不上传作品。若下载实现复杂，明确提示当前版本暂不支持，不得假装已保存。
+9. 有清晰的重置按钮，重置昵称、图片预览和改造状态；重置前可二次确认。
+10. 页面底部提供隐私说明：仅使用怪兽昵称；不填写孩子真名、学校、城市、住址、联系方式；不上传正脸或含身份信息的照片。图片仅在当前浏览器页面预览，关闭页面后不保证保留。
+
+
+二、视觉方向
+1. 使用圆角卡片、清晰按钮、大字号和充足留白，适合儿童与家长共同阅读。
+2. 梦幻探索主题：星空、云朵、彩虹、柔和渐变、奇妙森林。
+3. 酷炫探索主题：霓虹、机械纹理、能量光效、未来实验室。
+4. 两种主题均可随时切换；不使用性别刻板印象。
+5. 画面重点是孩子的涂鸦和怪兽作品，不要生成儿童真人、儿童正脸、学校或城市背景。
+6. 不要在界面图片上印视频旁白或教学字幕。
+
+
+三、技术约束
+1. 输出一个完整、可离线打开的 index.html，CSS 和 JavaScript 内嵌，不依赖构建工具，不安装任何软件。
+2. 不使用外部CDN、第三方追踪、真实AI API、云端存储、账号登录或密钥。
+3. 图片用浏览器 File API 和 object URL 本地预览；不通过 fetch 上传。
+4. 对文件类型和文件大小做基本校验；处理图片加载失败、未选择图片、昵称为空等状态。
+5. 释放不再使用的 object URL，重置和替换图片时避免内存泄漏。
+6. 所有按钮必须有真实可见的行为；不允许只有外观没有功能。
+7. 代码中注释清楚标出“真实AI接口尚未接入”的位置。不得伪造AI调用成功状态。
+8. 代码尽量语义化、可读、便于后续工程师替换模拟孵化逻辑。
+
+
+四、验收标准
+- 页面中文完整，无英文占位文案。
+- 图片可选择并本地预览；替换图片后预览同步更新。
+- 昵称输入和主题切换可用。
+- 点击孵化后出现演示卡，并明确显示“演示效果/未接真实AI”。
+- 至少四种改造项可操作，且结果有可见反馈。
+- 保存按钮行为真实；若暂未实现则明确禁用并说明。
+- 重置能清空状态并释放图片对象URL。
+- 手机窄屏布局可读，按钮可点击。
+- 页面不采集或要求输入孩子的个人身份信息。
+请先输出完整 index.html 源码，再用简短清单说明如何保存为 index.html 和如何验收。不要输出伪造的运行截图或测试结果。</pre><p class="copy-status" role="status" aria-live="polite"></p></section><section class="block"><h2>02 / 一起动手</h2><ol class="steps"><li>准备一张怪兽涂鸦，纸笔画完后只拍摄画纸本身；仅用怪兽昵称，不放孩子真名、学校、正脸、城市或其他个人信息。</li><li>给作品取一个怪兽昵称，例如“小彩豆”。</li><li>家长先打开网页制作AI工具，确认当前使用的是普通网页代码生成对话，不启用API、密钥、付费图像生成或云端上传。</li><li>复制上方的完整提示词，粘贴到AI对话输入框，发送。</li><li>等待AI输出完整 HTML 源码。检查是否包含“演示效果/未连接真实AI”的明确说明。</li><li>复制完整源码，打开电脑上的纯文本编辑器（Windows可用记事本），粘贴源码。</li><li>选择“文件→另存为”；文件名填写 index.html；保存类型选“所有文件”；编码选 UTF-8。不要保存成 index.html.txt。</li><li>在文件管理器中找到 index.html，双击用浏览器打开。首次测试先用虚构昵称和非私人涂鸦样图。</li><li>点击“选择我的涂鸦”，选择刚才的涂鸦图片；确认预览只在页面显示。</li><li>在昵称框输入怪兽昵称；选择“梦幻探索”或“酷炫探索”。</li><li>点击“开始孵化”。如果显示模拟怪兽卡，必须同时看到“演示效果/尚未连接真实AI”提示。</li><li>选择至少两项改造，例如“添加翅膀”“更换颜色”，确认页面有可见变化。</li><li>尝试“保存我的怪兽”；确认浏览器确实下载文件或出现明确的暂不支持提示。</li><li>点击重置，确认昵称、图片和改造状态清空；再选择另一主题测试。</li></ol></section><section class="block"><h2>03 / 参考图</h2><figure><img src="images/monster.webp" alt="涂鸦怪兽孵化器酷炫探索参考图 V1.3" loading="lazy" decoding="async"><figcaption>P02 原创视觉参考 V1.3，非运行截图；提示词生成的是交互演示，尚未接入真实 AI 图像生成。材料依据：P02-IDEA-003｜网站内容材料 V1.3</figcaption></figure></section><section class="block archive"><span class="eyebrow">留下小小创造力</span><h2>AI 成果存档</h2><p class="pending">作品整理中</p></section></article><noscript><p class="block">启用JavaScript可使用主题切换和复制按钮；未启用时，可向下阅读全部主题并手动复制。</p></noscript></main><footer><span>亲子AI创造资料库</span><span>小小创作，慢慢收集。</span></footer><script src="script.js"></script></body></html>
