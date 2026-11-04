@@ -3,3 +3,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}button:disabled{cursor:default;opacity:.65;background:#202c40;color:#bcc9de;border-color:#48566f}
 
 .card[href='#inventor'] .art img{object-position:center 38%}
+
+.hero .hero-tagline{font-size:14px;color:var(--cyan);letter-spacing:2px;margin:-12px 0 12px}
