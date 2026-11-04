@@ -3,3 +3,11 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}button:disabled{cursor:default;opacity:.65;background:#202c40;color:#bcc9de;border-color:#48566f}
 
 .card[href='#inventor'] .art img{object-position:center 38%}
+
+/* 浅粉色背景及背景上的文字对比 */
+body{background:#fff0f5;color:#392432}
+.site-header .header-note,.hero p,.count,footer{color:#684b5d}
+.hero .intro{color:#49303e}
+.hero h1 span{color:#a72d67;text-shadow:none}
+.themes > .section-heading .eyebrow,.back{color:#9a245c}
+.card,.privacy,.detail-head,.block{color:#f0f5ff}
