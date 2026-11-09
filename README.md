@@ -4,6 +4,8 @@
 
 线上访问：https://qinzi-ai-lab.vercel.app/
 
+GitHub Pages：[https://tting1101.github.io/qinzi-ai-lab/](https://tting1101.github.io/qinzi-ai-lab/)
+
 ## 目前的内容
 
 - **周末做什么转盘**：提供制作活动转盘的提示词和亲子协商步骤。
