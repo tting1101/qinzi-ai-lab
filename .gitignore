@@ -23,6 +23,7 @@ secrets*
 .vercel/
 .codex/
 node_modules/
+/data/
 .cache/
 dist/
 coverage/
