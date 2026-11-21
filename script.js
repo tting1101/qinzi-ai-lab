@@ -219,7 +219,7 @@
   const buttons = [register, login, logout, submit];
   let action = "login";
 
-  const accountServer = location.protocol === "http:" && location.port === "3000" && ["127.0.0.1", "localhost"].includes(location.hostname);
+  const accountServer = (location.protocol === "http:" && location.port === "3000" && ["127.0.0.1", "localhost"].includes(location.hostname)) || location.origin === "https://qinzi-ai-lab.vercel.app";
   if (!accountServer) {
     // Keep the entry visible without pretending a static page has an account server.
     const filePreview = location.protocol === "file:";
@@ -256,7 +256,7 @@
     try {
       await operation();
     } catch (error) {
-      message.textContent = error instanceof TypeError ? "本地账号服务暂时不可用。" : error.message;
+      message.textContent = error instanceof TypeError ? "账号服务暂时不可用。" : error.message;
     } finally {
       buttons.forEach(button => { button.disabled = false; });
     }
